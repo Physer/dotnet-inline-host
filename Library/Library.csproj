@@ -16,6 +16,7 @@
     <RepositoryUrl>https://github.com/Physer/dotnet-integration-utils</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyName>DotInt</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
