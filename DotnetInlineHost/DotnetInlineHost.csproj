@@ -1,15 +1,15 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Title>DotInt</Title>
-		<PackageId>DotInt</PackageId>
+		<Title>DotnetInlineHost</Title>
+		<PackageId>DotnetInlineHost</PackageId>
 		<Authors>Alex Schouls</Authors>
 		<Company />
-		<Product>DotInt</Product>
+		<Product>DotnetInlineHost</Product>
 		<Description>A small utility for quickly building an IHost program with custom configuration</Description>
 		<PackageProjectUrl>https://github.com/Physer/dotnet-integration-utils</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
