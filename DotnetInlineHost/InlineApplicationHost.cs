@@ -1,17 +1,17 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Library;
+namespace DotnetInlineHost;
 
-internal class DotIntApplicationHost
+internal class InlineApplicationHost
 {
     private readonly IDictionary<string, string?>? _configurationData;
 
-    public DotIntApplicationHost(IDictionary<string, string?>? configurationData = default) => _configurationData = configurationData;
+    public InlineApplicationHost(IDictionary<string, string?>? configurationData = default) => _configurationData = configurationData;
 
     public IHost Build(Action<HostBuilderContext, IServiceCollection>? serviceConfiguration = default)
     {
-        var host = Host.CreateDefaultBuilder().ConfigureAppConfiguration(builder => builder.AddDotIntConfiguration(_configurationData));
+        var host = Host.CreateDefaultBuilder().ConfigureAppConfiguration(builder => builder.AddInlineConfiguration(_configurationData));
         if (serviceConfiguration is not null)
             host.ConfigureServices(serviceConfiguration);
 
