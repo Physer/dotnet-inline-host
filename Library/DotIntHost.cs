@@ -4,5 +4,5 @@ namespace Library;
 
 public static class DotIntHost
 {
-    public static IHost CreateDotIntHost(IDictionary<string, string?>? configurationData) => new DefaultApplicationHost(configurationData).Build();
+    public static IHost BuildDotIntHost(IDictionary<string, string?>? configurationData = default) => new DotIntApplicationHost(configurationData).Build();
 }
