@@ -9,8 +9,8 @@ A use-case of this utility is in Integration Tests where you can quickly spin up
 
 Install the DotnetInlineHost package through the NuGet UI in Visual Studio or use the command line:
 
-Dotnet CLI: `dotnet add package DotnetInlineHost --version 0.1.0`
+Dotnet CLI: `dotnet add package DotnetInlineHost --version 0.2.0`
 
-Nuget Package manager: `Install-Package DotnetInlineHost -Version 0.1.0`
+Nuget Package manager: `Install-Package DotnetInlineHost -Version 0.2.0`
 
 This tool and its README are a work-in-progress. Stay tuned for more.
