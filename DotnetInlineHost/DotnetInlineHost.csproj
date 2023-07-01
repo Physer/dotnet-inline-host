@@ -11,13 +11,13 @@
 		<Company />
 		<Product>DotnetInlineHost</Product>
 		<Description>A small utility for quickly building an IHost program with custom configuration</Description>
-		<PackageProjectUrl>https://github.com/Physer/dotnet-integration-utils</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/Physer/dotnet-inline-host</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/Physer/dotnet-integration-utils</RepositoryUrl>
+		<RepositoryUrl>https://github.com/Physer/dotnet-inline-host</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
-		<AssemblyName>DotInt</AssemblyName>
-		<AssemblyVersion>0.2.0</AssemblyVersion>
+		<AssemblyName>DotnetInlineHost</AssemblyName>
+		<AssemblyVersion>0.3.0</AssemblyVersion>
 		<FileVersion>$(AssemblyVersion)</FileVersion>
 		<Version>$(AssemblyVersion)</Version>
 	</PropertyGroup>
