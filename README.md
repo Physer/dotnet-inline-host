@@ -14,3 +14,8 @@ Dotnet CLI: `dotnet add package DotnetInlineHost --version 0.2.0`
 Nuget Package manager: `Install-Package DotnetInlineHost -Version 0.2.0`
 
 This tool and its README are a work-in-progress. Stay tuned for more.
+
+### Use it in code
+
+You can now easily create an IHost object by calling `InlineHost.Build();`.
+Optionally pass in a `Dictionary<string, string?>` for configuration data and a Dependency Injection delegate to register your services with.
